@@ -112,7 +112,6 @@ def main():
                 # Vérifier si le choix 1 a été fait avant d'exécuter le choix 2
                 print("Veuillez lire les données du fichier CSV (choix 1) avant de sauvegarder dans un fichier JSON.")
             else:
-                # Sauvegarder les données dans un fichier JSON
                 ecrireDonneesJson('donnees.json', donnees_geo)
                 choix2_fait = True
         elif choix == '3':
